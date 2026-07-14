@@ -8,27 +8,26 @@ from ui.editor import MarkdownEditor
 from ui.preview import PreviewPane
 from ui.theme import apply_editor_theme, apply_preview_theme, is_dark_mode
 
-SAMPLE_MARKDOWN = """# Welcome to Markdown Notepad
+SAMPLE_MARKDOWN = """# Markdown Notepad
 
-Start typing on the **left** to see a live preview on the *right*.
+A small PySide6 experiment with live Markdown preview.
 
-## Features (coming soon)
+Start typing in the **left pane** to update the rendered preview on the **right**.
 
-- File open and save
-- Syntax highlighting
-- Themes
+## Supported Markdown
 
-## Example list
+- Headings
+- Bold and italic text
+- Ordered and unordered lists
+- Blockquotes
+- Inline code
+- Fenced code blocks
 
-1. Write Markdown
-2. See instant preview
-3. Build incrementally
+## Example
 
-> This is a blockquote. Edit this text to try it out.
+> The preview updates whenever the Markdown source changes.
 
-Inline `code` and fenced blocks:
-
-```
+```python
 def greet(name: str) -> str:
     return f"Hello, {name}!"
 ```
