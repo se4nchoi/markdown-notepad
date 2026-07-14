@@ -6,7 +6,7 @@ Project was made to explore basic desktop GUI structure, live text updates, and 
 
 ## Preview
 
-![Markdown Notepad](docs/screenshot/markdown-notepad.png)
+![Markdown Notepad](docs/screenshots/markdown_notepad.png)
 
 ## Current Features
 
